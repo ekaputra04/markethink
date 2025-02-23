@@ -37,7 +37,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <Button className="bg-green-50/30 px-8 py-6 border border-[#D6FF7E] rounded-full text-white">
+        <Button className="bg-green-50/30 hover:bg-green-50/50 px-8 py-6 border border-[#D6FF7E] rounded-full text-white">
           Free Trial
         </Button>
       </div>
