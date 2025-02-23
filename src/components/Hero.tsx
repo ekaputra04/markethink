@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import ButtonPrimary from "./ui/button-primary";
 
 export default function Hero() {
   return (
@@ -24,9 +24,7 @@ export default function Hero() {
           Completely synergize resource taxing relationships via premier niche
           markets. Professionally cultivate one-to-one customer
         </p>
-        <Button className="bg-gradient-to-b from-[#D6FF7E] to-[#98AA28] mt-12 px-8 py-6 rounded-full">
-          Get Started
-        </Button>
+        <ButtonPrimary text="Get Started" />
       </div>
       <img
         src="/images/hero-bg.png"

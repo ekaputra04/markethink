@@ -2,6 +2,7 @@ import Client from "./components/Client";
 import Content from "./components/Content";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import SocialMedia from "./components/SocialMedia";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Client />
       <Content />
+      <SocialMedia />
     </>
   );
 }
