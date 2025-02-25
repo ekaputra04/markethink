@@ -1,6 +1,7 @@
 import Article from "./components/Article";
 import Client from "./components/Client";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
@@ -18,6 +19,7 @@ export default function App() {
       <Service />
       <Article />
       <Subscribe />
+      <Footer />
     </>
   );
 }

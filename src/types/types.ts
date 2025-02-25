@@ -15,3 +15,11 @@ export type ArticleItemType = {
   image: string;
   content: string;
 };
+
+export type FooterItemType = {
+  title: string;
+  details: {
+    name: string;
+    link: string;
+  }[];
+};
