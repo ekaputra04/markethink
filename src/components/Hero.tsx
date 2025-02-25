@@ -20,7 +20,7 @@ export default function Hero() {
         <h1 className="mt-6 font-bold text-white text-7xl">
           Digital Marketing
         </h1>
-        <p className="mt-12 lg:px-96 text-white text-white/50 text-lg text-center text-wrap">
+        <p className="mt-12 mb-12 lg:px-96 text-white text-white/50 text-lg text-center text-wrap">
           Completely synergize resource taxing relationships via premier niche
           markets. Professionally cultivate one-to-one customer
         </p>

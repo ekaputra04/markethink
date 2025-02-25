@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 import SocialMedia from "./components/SocialMedia";
+import Subscribe from "./components/Subscribe";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <SocialMedia />
       <Service />
       <Article />
+      <Subscribe />
     </>
   );
 }
