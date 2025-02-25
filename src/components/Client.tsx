@@ -9,7 +9,7 @@ const clientsImages: string[] = [
 export default function Client() {
   return (
     <>
-      <div className="flex flex-wrap justify-between items-center gap-4 bg-green-50 px-8 md:px-16 lg:px-32 py-8 w-full">
+      <div className="flex flex-wrap justify-center md:justify-between items-center gap-8 bg-green-50 px-8 md:px-16 lg:px-32 py-8 w-full">
         {clientsImages.map((image, index) => (
           <img src={image} alt="image" key={index} className="w-32" />
         ))}

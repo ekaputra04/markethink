@@ -39,7 +39,7 @@ const articleItems: ArticleItemType[] = [
 export default function Article() {
   return (
     <div className="grid-cols-1 px-8 md:px-16 lg:px-32 py-24">
-      <div className="flex flex-wrap justify-between items-end">
+      <div className="flex flex-wrap justify-between items-end gap-8">
         <h2 className="font-semibold text-slate-700 text-xl md:text-2xl lg:text-3xl">
           Read More Articles From Our Blog
         </h2>

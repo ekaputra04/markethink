@@ -10,7 +10,7 @@ import Subscribe from "./components/Subscribe";
 
 export default function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Client />
@@ -20,6 +20,6 @@ export default function App() {
       <Article />
       <Subscribe />
       <Footer />
-    </>
+    </div>
   );
 }

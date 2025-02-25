@@ -2,7 +2,7 @@ import ButtonPrimary from "./ui/button-primary";
 
 export default function Hero() {
   return (
-    <div className="relative flex justify-center items-center bg-gradient-to-b from-[#395C4D] to-[#132D1F] w-full h-screen">
+    <div className="relative flex justify-center items-center bg-gradient-to-b from-[#395C4D] to-[#132D1F] w-full h-screen md:h-screen">
       <div className="z-20 flex flex-col justify-center items-center">
         <div className="flex items-center gap-8">
           <img
@@ -17,7 +17,7 @@ export default function Hero() {
             className="w-16"
           />
         </div>
-        <h1 className="mt-6 font-bold text-white text-7xl">
+        <h1 className="mt-6 font-bold text-white text-3xl md:text-5xl lg:text-7xl">
           Digital Marketing
         </h1>
         <p className="mt-12 mb-12 lg:px-96 text-white text-white/50 text-lg text-center text-wrap">
@@ -39,12 +39,12 @@ export default function Hero() {
       <img
         src="/images/hero-corner-left.png"
         alt="decorator"
-        className="bottom-0 left-0 absolute h-80"
+        className="bottom-0 left-0 absolute h-40 lg:h-80"
       />
       <img
         src="/images/hero-corner-right.png"
         alt="decorator"
-        className="right-0 bottom-0 absolute h-40"
+        className="right-0 bottom-0 absolute h-24 lg:h-40"
       />
     </div>
   );

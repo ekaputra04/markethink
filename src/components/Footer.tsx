@@ -74,7 +74,7 @@ const footerItems: FooterItemType[] = [
 export default function Footer() {
   return (
     <div className="space-y-8 px-8 md:px-16 lg:px-32 py-24">
-      <div className="gap-16 grid grid-cols-5">
+      <div className="gap-16 grid lg:grid-cols-5">
         <div className="space-y-8 col-span-2">
           <div className="flex justify-start items-center gap-2">
             <img src="/images/logo-black.png" alt="logo" className="w-8" />
@@ -102,7 +102,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="gap-8 grid grid-cols-3 col-span-3">
+        <div className="gap-8 grid grid-cols-1 md:grid-cols-3 col-span-3">
           {footerItems.map((item, index) => (
             <div key={index} className="space-y-4">
               <h3 className="font-semibold text-slate-700 text-lg">

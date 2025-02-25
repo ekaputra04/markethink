@@ -30,8 +30,8 @@ const contentItems: ContentItemType[] = [
 export default function Content() {
   return (
     <>
-      <div className="gap-16 grid grid-cols-5 px-8 md:px-16 lg:px-32 py-24">
-        <div className="space-y-8 col-span-2">
+      <div className="gap-16 grid grid-cols-1 lg:grid-cols-5 px-8 md:px-16 lg:px-32 py-24">
+        <div className="space-y-8 col-span-1 lg:col-span-2">
           <h2 className="font-semibold text-slate-700 text-2xl md:text-3xl lg:text-4xl">
             We’re Strategic Digital Marketing Agency
           </h2>
@@ -41,7 +41,7 @@ export default function Content() {
             spare to negatives{" "}
           </p>
         </div>
-        <div className="gap-10 grid grid-cols-2 col-span-3">
+        <div className="gap-10 grid grid-cols-2 col-span-1 lg:col-span-3">
           {contentItems.map((item, index) => (
             <ContentCard key={index} item={item} />
           ))}

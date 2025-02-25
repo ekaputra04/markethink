@@ -27,7 +27,7 @@ export default function Service() {
         <p className="text-slate-500 text-base md:text-lg">
           Let's do great work together
         </p>
-        <div className="gap-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="gap-16 grid grid-cols-2 lg:grid-cols-4">
           {serviceItems.map((item, index) => (
             <div key={index} className="flex flex-col items-center space-y-4">
               <div className="bg-white p-4 border border-green-200 rounded-full">

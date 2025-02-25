@@ -3,7 +3,7 @@ import ButtonPrimary from "./ui/button-primary";
 export default function SocialMedia() {
   return (
     <>
-      <div className="flex justify-between items-center gap-16 px-8 md:px-16 lg:px-32 pb-24">
+      <div className="flex md:flex-row flex-col justify-between items-center gap-16 px-8 md:px-16 lg:px-32 pb-24">
         <div className="md:w-1/2">
           <img
             src="/images/social-media.png"
