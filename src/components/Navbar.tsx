@@ -43,7 +43,7 @@ export default function Navbar() {
           Free Trial
         </Button>
       </div>
-      <div className="top-0 left-0 z-50 absolute flex justify-between items-center px-8 py-8 w-full">
+      <div className="lg:hidden top-0 left-0 z-50 absolute flex justify-between items-center px-8 py-8 w-full">
         <div className="flex justify-start items-center gap-2">
           <img src="/images/logo.png" alt="logo" className="w-8" />
           <p className="font-bold text-white text-xl">markethink</p>
