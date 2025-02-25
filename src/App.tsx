@@ -1,3 +1,4 @@
+import Article from "./components/Article";
 import Client from "./components/Client";
 import Content from "./components/Content";
 import Hero from "./components/Hero";
@@ -14,6 +15,7 @@ export default function App() {
       <Content />
       <SocialMedia />
       <Service />
+      <Article />
     </>
   );
 }

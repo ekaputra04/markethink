@@ -8,3 +8,10 @@ export type ContentItemType = {
   name: string;
   description: string;
 };
+
+export type ArticleItemType = {
+  title: string;
+  publishedDate: Date;
+  image: string;
+  content: string;
+};

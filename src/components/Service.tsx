@@ -1,4 +1,4 @@
-const serviceItems = [
+const serviceItems: { title: string; icon: string }[] = [
   {
     title: "Update content on my Website",
     icon: "/images/triangle.png",
@@ -30,7 +30,7 @@ export default function Service() {
         <div className="gap-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {serviceItems.map((item, index) => (
             <div key={index} className="flex flex-col items-center space-y-4">
-              <div className="bg-white p-4 rounded-full">
+              <div className="bg-white p-4 border border-green-200 rounded-full">
                 <img src={item.icon} alt="shape" className="h-12" />
               </div>
               <p className="text-slate-700 text-sm md:text-base text-center">
